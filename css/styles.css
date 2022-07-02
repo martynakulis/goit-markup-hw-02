@@ -1,0 +1,147 @@
+body {
+  --main-color: #212121;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-color);
+}
+.logo,
+.logo-footer {
+  --logo-color: #000000;
+  --logo-color-footer: #ffffff;
+}
+.web-color {
+  --web-color: #2196f3;
+}
+
+.logo,
+.logo-footer {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.38;
+  letter-spacing: 0.03em;
+}
+.logo {
+  color: var(--logo-color);
+}
+.logo-footer {
+  color: var(--logo-color-footer);
+}
+.web-color {
+  color: var(--web-color);
+}
+.navigation .link {
+  --nav-color-hover: #2196f3;
+}
+.contact .link,
+.contact .phone {
+  --contact-color: #757575;
+  --contact-color-hover: #2196f3;
+}
+.navigation,
+.contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.navigation .link:hover {
+  color: var(--nav-color-hover);
+}
+.contact .link,
+.contact .phone {
+  color: var(--contact-color);
+}
+.contact .link:hover {
+  color: var(--contact-color-hover);
+}
+.link,
+.logo,
+.logo-footer {
+  text-decoration: none;
+}
+.list-style {
+  list-style-type: none;
+}
+.heading {
+  --heading-color: #2f303a;
+}
+.heading-title {
+  --heading-title-color: #ffffff;
+}
+.service {
+  --button-color: #2196f3;
+  --button-text-color: #ffffff;
+}
+.heading {
+  background-color: var(--heading-color);
+  width: 1600px;
+  height: 600px;
+}
+.heading-title {
+  color: var(--heading-title-color);
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.service {
+  width: 200px;
+  height: 50px;
+  background-color: var(--button-color);
+  color: var(--button-text-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.article-heading {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.paragraph {
+  --paragraph-color: #757575;
+}
+.paragraph {
+  color: var(--paragraph-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.section-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.section-team {
+  --section-team-color: #f5f4fa;
+}
+.section-team {
+  background-color: var(--section-team-color);
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.job-position {
+  --job-position-color: #757575;
+}
+.job-position {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--job-position-color);
+}

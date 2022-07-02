@@ -5,32 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <header>
-      <a href="/">WebStudio</a>
+      <a href="/" class="logo"><span class="web-color">Web</span>Studio</a>
       <nav>
-        <ul>
-          <li><a href="/">Agencja</a></li>
-          <li><a href="/">Portfolio</a></li>
-          <li><a href="/">Kontakt</a></li>
+        <ul class="navigation list-style">
+          <li><a href="index.html" class="link">Agencja</a></li>
+          <li><a href="portfolio.html" class="link">Portfolio</a></li>
+          <li><a href="/" class="link">Kontakt</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="/">info@devstudio.com</a></li>
-        <li>+48 111 111 111</li>
+      <ul class="contact list-style">
+        <li><a href="/" class="link">info@devstudio.com</a></li>
+        <li class="phone">+48 111 111 111</li>
       </ul>
-      <h1>EFEKTYWNE ROZWIĄZANIA DLA NASZEGO BIZNESU</h1>
-      <button type="button">Zamów usługę</button>
+      <ul class="heading list-style">
+        <li>
+          <h1 class="heading-title">efektywne rozwiązania </br> dla naszego biznesu</h1>
+        </li>
+        <li>
+          <button type="button" class="service">Zamów usługę</button>
+        </li>
+      </ul>
     </header>
     <main>
       <section>
-        <ul>
+        <ul class="list-style">
           <li>
             <article>
-              <h4>LOREM IPSUM</h4>
-              <p>
+              <h4 class="article-heading">lorem ipsum</h4>
+              <p class="paragraph">
                 Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Nam vel arcu sem. Sed non
                 dodales dui. Interdum et malesuada
               </p>
@@ -38,8 +49,8 @@
           </li>
           <li>
             <article>
-              <h4>LOREM IPSUM</h4>
-              <p>
+              <h4 class="article-heading">lorem ipsum</h4>
+              <p class="paragraph">
                 Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Nam vel arcu sem. Sed non
                 dodales dui. Interdum et malesuada
               </p>
@@ -47,8 +58,8 @@
           </li>
           <li>
             <article>
-              <h4>LOREM IPSUM</h4>
-              <p>
+              <h4 class="article-heading">lorem ipsum</h4>
+              <p class="paragraph">
                 Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Nam vel arcu sem. Sed non
                 dodales dui. Interdum et malesuada
               </p>
@@ -56,8 +67,8 @@
           </li>
           <li>
             <article>
-              <h4>LOREM IPSUM</h4>
-              <p>
+              <h4 class="article-heading">lorem ipsum</h4>
+              <p class="paragraph">
                 Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Nam vel arcu sem. Sed non
                 dodales dui. Interdum et malesuada
               </p>
@@ -66,10 +77,10 @@
         </ul>
       </section>
       <section>
-        <ul>
+        <ul class="list-style">
           <li>
-            <h2>Czym się zajmujemy</h2>
-            <ul>
+            <h2 class="section-heading">Czym się zajmujemy</h2>
+            <ul class="list-style">
               <li>
                 <img src="images/img1.jpg" alt="Zdjęcie poglądowe 1" width="370" height="294" />
               </li>
@@ -83,17 +94,17 @@
           </li>
         </ul>
       </section>
-      <section>
-        <ul>
+      <section class="section-team"> 
+        <ul class="list-style">
           <li>
-            <h2>Nasz zespół</h2>
-            <ul>
+            <h2 class="section-heading ">Nasz zespół</h2>
+            <ul class="list-style">
               <li>
                 <figure>
                   <img src="images/img4.jpg" alt="Zdjęcie pracownika" width="270" height="260" />
                   <figcaption>
-                    <h4>John Doe</h4>
-                    <p>Product Designer</p>
+                    <h4 class="name">John Doe</h4>
+                    <p class="job-position">Product Designer</p>
                   </figcaption>
                 </figure>
               </li>
@@ -101,8 +112,8 @@
                 <figure>
                   <img src="images/img5.jpg" alt="Zdjęcie pracownika" width="270" height="260" />
                   <figcaption>
-                    <h4>John Doe</h4>
-                    <p>Frontend Developer</p>
+                    <h4 class="name">John Doe</h4>
+                    <p class="job-position">Frontend Developer</p>
                   </figcaption>
                 </figure>
               </li>
@@ -110,8 +121,8 @@
                 <figure>
                   <img src="images/img6.jpg" alt="Zdjęcie pracownika" width="270" height="260" />
                   <figcaption>
-                    <h4>John Doe</h4>
-                    <p>Marketing</p>
+                    <h4 class="name">John Doe</h4>
+                    <p class="job-position">Marketing</p>
                   </figcaption>
                 </figure>
               </li>
@@ -119,8 +130,8 @@
                 <figure>
                   <img src="images/img7.jpg" alt="Zdjęcie pracownika" width="270" height="260" />
                   <figcaption>
-                    <h4>John Doe</h4>
-                    <p>UI Designer</p>
+                    <h4 class="name">John Doe</h4>
+                    <p class="job-position">UI Designer</p>
                   </figcaption>
                 </figure>
               </li>
@@ -130,11 +141,11 @@
       </section>
     </main>
     <footer>
-      <a href="/">WebStudio</a>
+      <a href="/" class="logo-footer"><span class="web-color">Web</span>Studio</a>
       <address>
         m. Warszawa, Aleje Jerozolimskie 21 <br />
-        <a href="mailto:info@example.com">info@example.com</a><br />
-        <a href="tel:+48111111111">+48 111 111 111</a>
+        <a href="mailto:info@example.com" class="link">info@example.com</a><br />
+        <a href="tel:+48111111111" class="link">+48 111 111 111</a>
       </address>
     </footer>
   </body>
