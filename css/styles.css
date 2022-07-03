@@ -39,6 +39,9 @@ body {
   --contact-color: #757575;
   --contact-color-hover: #2196f3;
 }
+.navigation .link {
+  color: var(--main-color);
+}
 
 .navigation .link,
 .navigation .contact {
